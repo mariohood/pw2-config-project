@@ -10,7 +10,7 @@ import org.eclipse.microprofile.config.inject.ConfigProperty;
 @Path("/hello")
 public class GreetingResource {
 
-    @ConfigProperty(name= "pw2.message",  defaultValue="" )
+    @ConfigProperty(name= "Ifrs.pw2",  defaultValue="" )
     String message;
     @GET
     @Produces(MediaType.TEXT_PLAIN)
